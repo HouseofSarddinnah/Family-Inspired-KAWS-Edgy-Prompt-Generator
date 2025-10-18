@@ -1,0 +1,14 @@
+
+export const PROMPT_OPTIONS_CONFIG = {
+  characterGroup: { label: 'Character Group', options: ["Solo KAWS Style Figure", "Family Trio: Dad, Mum, Child", "School Boys Group", "School Girls Group", "KAWS + Compatible Cartoon Mascot Mix", "Streetwear Duo/Trio Collab Crew"], isMulti: false },
+  kawsCharacters: { label: 'KAWS Style Characters', options: ["KAWS Companion", "Chum Plush", "BFF Mini", "Dissected Toy", "Pop Mascot Hybrid", "Sad Companion", "Holiday Companion", "Metallic Companion"], isMulti: true },
+  cartoonChars: { label: 'Compatible Cartoons', options: ["Minimal Teddy Bear", "Bratz Doll Style", "Chibi Figure", "Groovy Streetwear Mascot", "Retro 80's Cartoon Style", "Urban Manga Mascot", "Pixel Art Style Figure", "Kawaii Animal Mascot"], isMulti: true },
+  themes: { label: 'Themes', options: ["Halloween Punk", "Christmas Classic", "Valentine Sweet", "Cyberpunk Neon", "Vaporwave Pastels", "Kawaii Cute", "Streetwise Urban", "Futuristic Minimalist"], isMulti: true },
+  colorway: { label: 'Colorway', options: ["Cherry Red", "Candy Pink", "Sky Blue", "Silver Spectrum", "Butter Yellow", "Seafoam Green", "Classic Matte Black", "Warm Tan", "Moody Lilac", "Periwinkle", "Mixed Pastel", "Chrome Mirror", "Liquid Metal", "Glow in the Dark"], isMulti: false },
+  finish: { label: 'Finish', options: ["Ultra matte", "Glossy", "Vinyl smooth", "Pearlescent", "Holographic", "Glitter", "Iridescent oil-slick", "Transparent resin", "Splatter-paint", "Gold leaf", "Platinum-plated", "Textured flocked/fur", "Chrome", "Flocked velvet"], isMulti: false },
+  poses: { label: 'Poses & Interactions', options: ["Family huddle/group hug", "Walking together hand-in-hand", "Sitting in a row", "Playing/interacting with toys", "Individual cool poses", "Dancing together", "Sharing accessories", "Looking at phones/devices"], isMulti: true },
+  streetwear: { label: 'Streetwear & Accessories', options: ["Supreme Collab", "Off-White Collab", "Nike Swoosh", "BAPE Camo", "Oversize hoodie", "Chunky sneakers", "Snapback hat", "Techwear harness", "LED accessories", "Cyber glasses", "Bubble tea cups", "Skateboard"], isMulti: true },
+  scene: { label: 'Scene/Environment', options: ["Gallery white backdrop", "Neon-lit city alley", "Urban rooftop", "Cozy living room", "School playground", "Fashion runway", "Tokyo Harajuku street", "Cyberpunk cityscape", "Pastel dreamscape", "Retro arcade"], isMulti: false },
+  effects: { label: 'Special Effects', options: ["Animated light trails", "Neon glow effects", "Holographic shimmer", "Confetti burst", "Crystal shards", "Fog overlay", "Rainbow gradients", "Glitch effects"], isMulti: true },
+  vibe: { label: 'Mood/Vibe', options: ["Playful & energetic", "Chill & relaxed", "Mysterious & moody", "Futuristic & sleek", "Nostalgic & retro", "Bold & confident", "Dreamy & ethereal", "Edgy & rebellious"], isMulti: false },
+};
